@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="295.828" tests="9" skipped="0" failures="0" errors="0">
+<testcase classname="Gmail login feature" name="FB Login feature - Example #1.1" time="44.552">
+<system-out><![CDATA[
+Given user open the browser.................................................passed
+And user is in FB login page................................................passed
+When user enter "9704661656" and "Subbu165689$".............................passed
+Then user is navigate to FBHome Page Successfully...........................passed
+Then user take the screenshot sccessfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Login" name="User is login FaceBookHomePage functionalities." time="40.633">
+<system-out><![CDATA[
+Given user open the browser.................................................passed
+And user is on FB login page................................................passed
+When user enter username and password.......................................passed
+When user clicks on FB login button.........................................passed
+Then user is navigate the FBHome Page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Login" name="User is login FBPage with valid username and valid password" time="38.092">
+<system-out><![CDATA[
+Given user open the browser.................................................passed
+And user is on FB login page................................................passed
+When user enter valid username and valid password...........................passed
+When user clicks on FB login button.........................................passed
+Then user is navigate the FBHome Page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Login" name="User is login FBPage with valid username and invalid password" time="29.681">
+<system-out><![CDATA[
+Given user open the browser.................................................passed
+And user is on FB login page................................................passed
+When user enter valid username and invalid password.........................passed
+When user clicks on FB login button.........................................passed
+Then user is not navigate the FaceBookHome Page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Login" name="User is login FBPage with invalid username and valid password" time="26.996">
+<system-out><![CDATA[
+Given user open the browser.................................................passed
+And user is on FB login page................................................passed
+When user enter invalid username and valid password.........................passed
+When user clicks on FB login button.........................................passed
+Then user is not navigate the FaceBookHome Page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Login" name="User is login FBPage with invalid username and invalid password" time="33">
+<system-out><![CDATA[
+Given user open the browser.................................................passed
+And user is on FB login page................................................passed
+When user enter invalid username and invalid password.......................passed
+When user clicks on FB login button.........................................passed
+Then user is not navigate the FaceBookHome Page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="GoogleSearch Page" name="Search the text on the GoogleSearchPage" time="30.409">
+<system-out><![CDATA[
+Given user lunch the browser................................................passed
+When user open used google search page URL..................................passed
+When user search some text on the google searchbox..........................passed
+And user hits search box....................................................passed
+Then user navigate the search results.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Login feature" name="User login FacebookHome Page" time="7.825">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the faceboook homepage............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Uploadfile in website" name="Upload file in google drive" time="43.462">
+<system-out><![CDATA[
+Given user open the browser.................................................passed
+And user is on website......................................................passed
+When user enter as "NandyalaSubbaramaiah"...................................passed
+When user enter input as "subbu0063@gmail.com"..............................passed
+When user upload a "filepath" in website....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
